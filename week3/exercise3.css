@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.button-container {
+    display: auto;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-inline-start: 10px;
+    margin-block-start: 10px;
+}
+
+
+.btn-request {
+    background-color: black;
+    color: white;
+}
+
+
+.btn-signup {
+    background-color: #28a745;
+    color: white;
+}
+
+
+.btn-add-cart {
+    background-color: #ffcc00;
+    color: black;
+    border-radius: 20px;
+    padding: 10px 60px;
+}
+
+
+.btn-get-started {
+    background-color: #7e57c2;
+    color: white;
+}
+
+
+.btn-download {
+    background-color: white;
+    color: grey;
+    border: 2px solid lightgrey;
+}
+
+
+.btn-apply {
+    background-color: #007bff;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 80px;
+
+}
+
+
+.btn-save {
+    background-color: white;
+    color: #007bff;
+    border: 2px solid #007bff;
+    border-radius: 20px;
+}
