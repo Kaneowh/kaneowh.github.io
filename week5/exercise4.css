@@ -1,0 +1,108 @@
+/* General Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #32CD32;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.social-links a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.social-links img {
+    width: 20px;
+    height: 20px;
+}
+
+/* Profile Section */
+.profile {
+    margin: 20px 0;
+    color: #333;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #32CD32;
+    object-fit: cover;
+}
+
+/* Exercise List Styles */
+.exercise-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.exercise-box {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.exercise-box h3 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    margin: 0 0 10px;
+}
+
+.exercise-box ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Footer Styles */
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #32CD32;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* Links Open in New Tab */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    opacity: 0.8;
+}
