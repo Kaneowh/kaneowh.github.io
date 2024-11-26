@@ -1,34 +1,22 @@
 body {
-    font-family: Arial, sans-serif;
-    color: #333;
-    background-color: #ece6e9;
+    background-color: #dcd2d3;
+}
+
+button.icon {
+    background-color: transparent;
+    border: 0px;
 }
 
 h1 {
-    color: rgb(12, 12, 53);
+    color: #041154;
+}
+
+h2 {
+    border: 1px dotted black;
+    color: #004cac;
+    padding: 10px;
 }
 
 p {
-    color: blue;
-    font-size: 20px;
-    border: 2px dotted #333;
-    margin-top: 20px;
-
-}
-
-intro {
-    color: orange;
-    margin: 20px;
-
-}
-
-img.profile-image {
-    width: 500px;
-    height: auto;
-    border-radius: 50%;
-}
-
-img.social-icon {
-    width: 20px;
-    height: auto;
+    color: #ea810f;
 }
